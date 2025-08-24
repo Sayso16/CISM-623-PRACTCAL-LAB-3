@@ -74,10 +74,26 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-
+##########################################
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
+# Colab-specific files and directories
+.datalab/
+.colab/
+.colab/
+google.colab*
+Colab Notebooks/
+drive/
+sample_data/
+
+# Colab temporary/mount points (commonly seen)
+/content/
+/drive/
+/mnt/
+/tmp
+#############################################
 # IPython
 profile_default/
 ipython_config.py
